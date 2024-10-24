@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = rgb_hex_converter
+title = HotmailCracker 
 
 # (str) Package name
-package.name = converter
+package.name = Marko
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.yashas.app
+package.domain = com.hotmailcr.app
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3,kivy,requests,plyer,user_agent
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
